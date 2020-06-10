@@ -1,0 +1,32 @@
+{
+  "name": "kaetan/image-pk",
+  "type": "library",
+  "description": "This is my homework",
+  "keywords": ["image","watermark","Leha privet!"],
+  "homepage": "https://github.com/kaetan",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kirill Prokudin",
+      "email": "f4ntasm@gmail.com",
+      "homepage": "https://github.com/kaetan",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "ext-gd": "*",
+    "ext-fileinfo": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "ImagePk": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ImagePk\\ImagePk\\ServiceProvider"
+      ]
+    }
+  }
+}
