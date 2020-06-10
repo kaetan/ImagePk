@@ -2,7 +2,7 @@
   "name": "kaetan/image-pk",
   "type": "library",
   "description": "This is my homework",
-  "keywords": ["image","watermark","Leha privet!"],
+  "keywords": ["image","watermark"],
   "homepage": "https://github.com/kaetan",
   "license": "MIT",
   "authors": [
